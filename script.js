@@ -13,9 +13,10 @@ let buttonsDiv = document.getElementById('buttonsDiv');
 let results = document.getElementById('results');
 let score = document.getElementById('score');
 
+
 results.style.display = 'none';
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 2; i++) {
   questions.push(new Question((i + 1) + " Question?"));
 }
 
